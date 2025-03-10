@@ -331,4 +331,11 @@ body {
 .btn-outline:hover {
   background: var(--primary-100);
   color: white !important;
+}
+
+.heading-1 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 125%;
 }/*# sourceMappingURL=styles.css.map */
