@@ -1,0 +1,12 @@
+.btn-outline {
+    border: 1px solid var(--primary-100);
+    border-radius: 10px;
+    // padding: 12px 24px;
+    color: var(--primary-100) !important;
+    transition:all 0.5s ease-in-out;
+
+    &:hover { 
+        background:var(--primary-100);
+        color:white !important;
+    }
+}

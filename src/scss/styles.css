@@ -1,0 +1,334 @@
+@font-face {
+  font-family: "Yukita Sans", sans-serif;
+  src: local("Yukita Sans"), url("../fonts/yukita/YukitaSans-Regular-BF640fc93d5bd03.otf") format("otf");
+}
+@font-face {
+  font-family: "Graphik", sans-serif;
+  src: local("Graphik"), url("../fonts/Graphik/Graphik-Regular-Trial.otf") format("otf");
+}
+@font-face {
+  font-family: "sf-pro-text", sans-serif;
+  src: local("sf-pro-text"), url("../fonts/sf-pro/SF-Pro-Display-Regular.otf") format("otf");
+}
+:root {
+  --primary-100: #2752e7;
+  --primary-80: #5275ec;
+  --primary-60: #7d97f1;
+  --primary-40: #d0dbff;
+  --primary-20: #f5f8fe;
+  --accent-error-100: #e25c5c;
+  --accent-error-80: #e87d7d;
+  --accent-error-60: #ee9d9d;
+  --accent-error-40: #f3bebe;
+  --accent-error-20: #f9dede;
+  --accent-success-100: #53d258;
+  --accent-success-80: #75db79;
+  --accent-success-60: #98e49b;
+  --accent-success-40: #baedbc;
+  --accent-success-20: #ddf6de;
+  --base-100: #111;
+  --base-80: #707070;
+  --base-60: #a0a0a0;
+  --base-40: #cfcfcf;
+  --base-20: #e3e3e3;
+  --base-0: #fff;
+  --font-family: "Inter Variable", sans-serif;
+  --second-family: "Yukita Sans", sans-serif;
+  --third-family: "Graphik", sans-serif;
+  --font3: "Argentum Sans", sans-serif;
+  --font4: "sf-pro-text", sans-serif;
+}
+
+/* Text Color Classes */
+.text-primary-100 {
+  color: var(--primary-100);
+}
+
+.text-primary-80 {
+  color: var(--primary-80);
+}
+
+.text-primary-60 {
+  color: var(--primary-60);
+}
+
+.text-primary-40 {
+  color: var(--primary-40);
+}
+
+.text-primary-20 {
+  color: var(--primary-20);
+}
+
+.text-error-100 {
+  color: var(--accent-error-100);
+}
+
+.text-error-80 {
+  color: var(--accent-error-80);
+}
+
+.text-error-60 {
+  color: var(--accent-error-60);
+}
+
+.text-error-40 {
+  color: var(--accent-error-40);
+}
+
+.text-error-20 {
+  color: var(--accent-error-20);
+}
+
+.text-success-100 {
+  color: var(--accent-success-100);
+}
+
+.text-success-80 {
+  color: var(--accent-success-80);
+}
+
+.text-success-60 {
+  color: var(--accent-success-60);
+}
+
+.text-success-40 {
+  color: var(--accent-success-40);
+}
+
+.text-success-20 {
+  color: var(--accent-success-20);
+}
+
+.text-base-100 {
+  color: var(--base-100);
+}
+
+.text-base-80 {
+  color: var(--base-80);
+}
+
+.text-base-60 {
+  color: var(--base-60);
+}
+
+.text-base-40 {
+  color: var(--base-40);
+}
+
+.text-base-20 {
+  color: var(--base-20);
+}
+
+.text-base-0 {
+  color: var(--base-0);
+}
+
+/* Background Color Classes */
+.bg-primary-100 {
+  background-color: var(--primary-100);
+}
+
+.bg-primary-80 {
+  background-color: var(--primary-80);
+}
+
+.bg-primary-60 {
+  background-color: var(--primary-60);
+}
+
+.bg-primary-40 {
+  background-color: var(--primary-40);
+}
+
+.bg-primary-20 {
+  background-color: var(--primary-20);
+}
+
+.bg-error-100 {
+  background-color: var(--accent-error-100);
+}
+
+.bg-error-80 {
+  background-color: var(--accent-error-80);
+}
+
+.bg-error-60 {
+  background-color: var(--accent-error-60);
+}
+
+.bg-error-40 {
+  background-color: var(--accent-error-40);
+}
+
+.bg-error-20 {
+  background-color: var(--accent-error-20);
+}
+
+.bg-success-100 {
+  background-color: var(--accent-success-100);
+}
+
+.bg-success-80 {
+  background-color: var(--accent-success-80);
+}
+
+.bg-success-60 {
+  background-color: var(--accent-success-60);
+}
+
+.bg-success-40 {
+  background-color: var(--accent-success-40);
+}
+
+.bg-success-20 {
+  background-color: var(--accent-success-20);
+}
+
+.bg-base-100 {
+  background-color: var(--base-100);
+}
+
+.bg-base-80 {
+  background-color: var(--base-80);
+}
+
+.bg-base-60 {
+  background-color: var(--base-60);
+}
+
+.bg-base-40 {
+  background-color: var(--base-40);
+}
+
+.bg-base-20 {
+  background-color: var(--base-20);
+}
+
+.bg-base-0 {
+  background-color: var(--base-0);
+}
+
+/* Border Color Classes */
+.border-primary-100 {
+  border-color: var(--primary-100);
+}
+
+.border-primary-80 {
+  border-color: var(--primary-80);
+}
+
+.border-primary-60 {
+  border-color: var(--primary-60);
+}
+
+.border-primary-40 {
+  border-color: var(--primary-40);
+}
+
+.border-primary-20 {
+  border-color: var(--primary-20);
+}
+
+.border-error-100 {
+  border-color: var(--accent-error-100);
+}
+
+.border-error-80 {
+  border-color: var(--accent-error-80);
+}
+
+.border-error-60 {
+  border-color: var(--accent-error-60);
+}
+
+.border-error-40 {
+  border-color: var(--accent-error-40);
+}
+
+.border-error-20 {
+  border-color: var(--accent-error-20);
+}
+
+.border-success-100 {
+  border-color: var(--accent-success-100);
+}
+
+.border-success-80 {
+  border-color: var(--accent-success-80);
+}
+
+.border-success-60 {
+  border-color: var(--accent-success-60);
+}
+
+.border-success-40 {
+  border-color: var(--accent-success-40);
+}
+
+.border-success-20 {
+  border-color: var(--accent-success-20);
+}
+
+.border-base-100 {
+  border-color: var(--base-100);
+}
+
+.border-base-80 {
+  border-color: var(--base-80);
+}
+
+.border-base-60 {
+  border-color: var(--base-60);
+}
+
+.border-base-40 {
+  border-color: var(--base-40);
+}
+
+.border-base-20 {
+  border-color: var(--base-20);
+}
+
+.border-base-0 {
+  border-color: var(--base-0);
+}
+
+/* Font Family Classes */
+.font-inter {
+  font-family: var(--font-family);
+}
+
+.font-yukita {
+  font-family: var(--second-family);
+}
+
+.font-graphik {
+  font-family: var(--third-family);
+}
+
+.font-argentum {
+  font-family: var(--font3);
+}
+
+.font-sf {
+  font-family: var(--font4);
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+.btn-outline {
+  border: 1px solid var(--primary-100);
+  border-radius: 10px;
+  color: var(--primary-100) !important;
+  transition: all 0.5s ease-in-out;
+}
+.btn-outline:hover {
+  background: var(--primary-100);
+  color: white !important;
+}/*# sourceMappingURL=styles.css.map */
